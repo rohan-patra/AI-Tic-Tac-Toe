@@ -136,7 +136,7 @@ while play_again == 'Y' or play_again == 'y':
     current_state = "Not Done"
     print("\nNew Game!")
     print_board(game_state)
-    player_choice = input("Choose which player goes first - X (You - the petty human) or O(The mighty AI): ")
+    player_choice = input("Choose which player goes first - X (You) or O(AI): ")
     winner = None
 
     if player_choice == 'X' or player_choice == 'x':
